@@ -15,8 +15,8 @@ function calcular() {
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
         img.setAttribute("style","border-radius: 50%" )
-        img.setAttribute("width", "250")
-        img.setAttribute("height", "250")
+        img.setAttribute("width", "275")
+        img.setAttribute("height", "275")
         if (fsex[0].checked) {
             gênero = 'Homem'
             if (idade >= 0 && idade < 10) {
